@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Post Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="well well-lg" style="background:transparent url('https://i.pinimg.com/736x/e3/1f/dc/e31fdcb921fa62efac61ed02a93f4d0d.jpg'); height=100%;  background-repeat:no-repeat; background-position: center;  background-size: cover">
+<table style="width:90%">
+<tr>
+<td class="col-sm-2 class="well well-lg">
+<div class="page-header">
+<div style="text-align : center; color: white;">
+<img src="http://pngimg.com/uploads/email/email_PNG43.png" class="img-rounded" alt="Cinque Terre" width="120" height="120">
+<h2>Post it!</h2>
+<h5>Key in your info you would like to share<h5>
+</div>
+</div>
+</td>
+<td>
+<div class="well well-lg" style ="opacity: 0.9;" >
+<form action="/action_page.php" >
+  <textarea class="form-control" rows="5" id="comment" placeholder="Type here..." style ="opacity: 1.0;"></textarea><br><br>
+  <label for="img">Select image:</label><br><br>
+  <input class="button button4" type="file" id="img" name="img" accept="image/*"><br><br><br>
+  <label for="lname">Category:</label><br><br>
+  
+  
+  <table style="width:80%">
+  <tr>
+    <td><input type="checkbox" id="cat1" name="cat1" value="NDS">
+  <label for="cat1"> NDS </label></td>
+    <td><input type="checkbox" id="cat2" name="cat2" value="CAPS">
+  <label for="cat2"> CAPS </label></td>
+      <td><input type="checkbox" id="cat3" name="cat3" value="T3">
+  <label for="cat3"> T3 </label></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" id="cat4" name="cat4" value="MFTech">
+  <label for="cat4"> Mainframe Technical </label></td>
+  <td><input type="checkbox" id="cat5" name="cat5" value="Jtech">
+  <label for="cat5"> Java Technical </label></td>
+    <td><input type="checkbox" id="cat6" name="cat6" value="Jtech">
+  <label for="cat5"> Other </label></td>
+  </tr>
+</table>
+  
+  
+  <br><br>
+<div style="text-align : right">
+  <input class="btn btn-success" type="submit" onclick="alert('Submitted for Review')" value="Submit">
+  <input class="btn btn-primary" type="reset" value="Reset">
+    <input class="btn btn-danger" type="submit" value="Cancel">
+</div>
+</form> 
+</div>
+
+
+</table>
+</div>
+</body>
+</html>
